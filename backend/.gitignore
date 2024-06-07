@@ -1,2 +1,77 @@
 node_modules/
 .env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Flask files
+instance/
+.webassets-cache
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# SQL databases
+*.sqlite3
+
+# Mac files
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code files
+.vscode/
+
+# JetBrains files
+.idea/
+
+# Ignore Python environment files
+*.env
+
+# Ignore node_modules folder
+node_modules/
+
+# Log files
+*.log
+
+# Ignore data files
+*.csv
+*.dat
+*.data
+*.dat.bak
+
+# Ignore the build directory for React
+build/
+
+# Ignore coverage directory for React
+coverage/
